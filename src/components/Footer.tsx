@@ -1,9 +1,5 @@
-import { ReactElement } from "react";
-
-export default function Footer (){
+export default function Footer () {
     return (
-        <div className="flex w-full h-1/6 bg-emerald-500">
-
-        </div>
+        <div className="flex flex-row w-full h-1/5 bg-purple-600"></div>
     )
 }

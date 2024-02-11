@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        neodgm:'neodgm'
+        neodgm: 'neodgm'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -21,3 +21,4 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+

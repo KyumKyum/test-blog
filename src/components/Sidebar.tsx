@@ -2,15 +2,14 @@ import Image from 'next/image';
 import MainImage from '../../public/image/main.jpeg';
 import Link from 'next/link';
 
-export default function Sidebar() {
+export default function Sidebar(){
     return (
-        <div className="flex flex-col h-full w-1/4 bg-[#7ca7eb] items-center py-10 space-y-4">
-            <Image src={MainImage} alt='My Image!!!' className='w-[250px] h-[250px] rounded-full shadow-2xl'/>
-            <Link href={'/'} className='text-5xl font-neodgm'>{'Jay Lim'}</Link>
-            <p className='text-lg text-center font-neodgm'>
-            {'Welcome Everyone!!!'}
-                <br/>{'This is my blog!'}
-            </p>
+        <div className="flex flex-col h-full w-1/4 bg-[#db9dfc] items-center space-y-5">
+            <Link href={'/'}>
+                <Image src={MainImage} alt='My Image' className='min-w-[150px] min-h-[150px] max-w-[250px] max-h-[250px] rounded-[125px] shadow-2xl my-5'/>
+            </Link>
+            <p className='text-5xl font-neodgm'>{'Jay Lim'}</p>
+            <p className='text-lg text-center font-neodgm'>{'Hello Everyone!!!'}<br/>{'Welcome to by personal blog!! :)'}</p>
         </div>
     )
 }
